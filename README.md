@@ -6,4 +6,4 @@
 
 ![Clone-netflix](https://github.com/Patricia17991/Clone-netflix/blob/main/layout.png?raw=true) 
 
-![Clone-netflix]() 
+![Clone-netflix](https://github.com/Patricia17991/Clone-netflix/blob/main/layout-2.png?raw=true) 
