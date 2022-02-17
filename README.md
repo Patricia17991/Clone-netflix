@@ -4,6 +4,6 @@
  Utilizei técnicas de CSS3 com containers e variáveis, posicionamento de elementos com Flexbox e Jquery a favor da aplicação.
 
 
-![Clone-netflix](https://github.com/Patricia17991/Clone-netflix/blob/main/layout.png?raw=true) 
+![Clone-netflix](https://github.com/Patricia17991/Clone-netflix/blob/main/imagem-lucifer.png?raw=true) 
 
 ![Clone-netflix](https://github.com/Patricia17991/Clone-netflix/blob/main/img-lucifer.png?raw=true) 
