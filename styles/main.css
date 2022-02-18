@@ -1,5 +1,5 @@
 
-:root{ /*declaração de variáveis dentro do css*/
+:root { /*declaração de variáveis dentro do css*/
     --vermelho:#E50914;
     --preto:#141414;
     --cinza:#AAA;
@@ -13,38 +13,38 @@
 
 /*elementos base*/
 
-body{
+body {
     background: var(--preto);
     font-family: 'Arial', Times, Serif ;
     color:white;
 }
 
-header .container{
+header .container {
     display: flex; /*alinhar elementos em tela*/
     flex-direction: row;
     align-items: center; /*alinhar elementos ao centro*/
     justify-content: space-between; /*espaço entre as tags com space between*/
 }
 
-header .logo{
+header .logo {
     margin-left: 5px;
     color:var(--vermelho);
     font-family: 'Arial Black',Times;
     font-size: 40px; /*tamanho da fonte*/
 }
 
-header nav a{
+header nav a {
     text-decoration: none; /*remover grifado dos links*/
     color:var(--cinza);
     margin-right: 10px; /*separar uma palavra da outra pela margem*/
 }
 
-header nav a:hover{
+header nav a:hover {
     color:#fff;
 }
 
 /*filme principal*/
-.filme-principal{
+.filme-principal {
     font-size: 16px;
     /* linear-gradient(rgba(122, 63, 63, 0.5),rgba(122, 63, 63, 0.5)100%)  usado para dar um gradiente de cores diferentes no fundo do background*/
     background: linear-gradient(rgba(122, 63, 63, 0.5),rgba(122, 63, 63, 0.5)100%) ,url('/images/lucifer-background.jpg');
@@ -58,18 +58,18 @@ header nav a:hover{
     align-items: flex-start; /*elementos sempre a esquerda*/
 }
 
-.filme-principal .descricao{
+.filme-principal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.filme-principal .titulo{
+.filme-principal .titulo {
     margin-top: 15%; /*margem no topo*/
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.botao{
+.botao {
     background-color: rgba(0,0,0,.50);
     border: none; /*tirando a borda dos botões*/
     color:white;
@@ -82,30 +82,30 @@ header nav a:hover{
     transition: .3s ease all; /*ele cuida da parte de uma transação p/ outra*/
 }
 
-.botao:hover{
+.botao:hover {
     background-color: white;
     color:black;
 }
 
-.botao i{
+.botao i {
     margin-right: 8px;
 }
 
-.container{
+.container {
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.filme-principal .container {
     /*nesse caso as alterações não afetarão todos os 2 containers*/
     width: 70%;
 }
 
-.box-series{
+.box-series {
     height: 80%;
     width: 100%;
     display: block;
 }
 
-.carrosel-series{
+.carrosel-series {
     margin-top: 4px;
 }
