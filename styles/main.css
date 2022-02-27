@@ -90,32 +90,39 @@ header nav a:hover {
 
     cursor: pointer;
     transition: .3s ease all; /*ele cuida da parte de uma transação p/ outra*/
+    
 }
 
 .botao:hover {
     background-color: white;
     color:black;
+    
 }
 
 .botao i {
     margin-right: 8px;
+    
 }
 
 .container {
     margin-left: 20px;
+    
 }
 
 .filme-principal .container {
-    /*nesse caso as alterações não afetarão todos os 2 containers*/
+    /*nesse caso as alterações não afetarão  os 2 containers*/
     width: 70%;
+    
 }
 
 .box-series {
     height: 80%;
     width: 100%;
     display: block;
+    
 }
 
 .carrosel-series {
     margin-top: 4px;
+    
 }
